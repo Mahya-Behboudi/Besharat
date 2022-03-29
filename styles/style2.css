@@ -1,0 +1,191 @@
+@font-face {
+  font-family: iran;
+  src: url(/fonts/iransansdn.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: "iran";
+  direction: rtl;
+}
+body {
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+label {
+    font-size: 18px;
+    padding-right: 13px;
+
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.p-10 {
+  padding: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-form {
+  margin: 20px 0 20px 0;
+}
+.p-form {
+  padding: 10px 0 10px 0;
+}
+/* introduction forms */
+#intro-form {
+  background: linear-gradient(
+    0deg,
+    rgba(1, 25, 135, 1) 0%,
+    rgba(1, 82, 109, 1) 100%
+  );
+}
+.border-r {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.intro-form {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-color: #e1e1e1;
+}
+.intro-form .intro-form-right {
+  width: 50%;
+  background-color: e1e1e1;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.intro-form .intro-form-right .form {
+  display: block;
+}
+.intro-form .intro-form-left {
+  /* background-color: pink; */
+  width: 50%;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  height: auto;
+}
+.intro-form .intro-form-left img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+ 
+
+}
+/* form */
+#form {
+}
+#form .input-n {
+  width: 100%;
+  display: block;
+}
+#form .form-two {
+  display: flex;
+  width: 100%;
+  justify-content: space-between
+}
+
+#form .form-two .form-two-one {
+  width:40%;
+}
+#form .form-two .form-two-two {
+  width: 50%;
+}
+#form .form-three,
+.form-four,
+.form-six {
+  display: flex;
+  justify-content: space-between;
+}
+#form .form-two .form-two-one,
+.form-two-two,
+.form-six .form-six-one,
+.form-five-two .form-four .form-four-one,
+.form-four-two,
+.form-three .form-three-one,
+.form-three-two,
+.form-three-three {
+  display: flex;
+  flex-direction: column;
+}
+#form .form-three .form-three-three {
+  width: 40%;
+}
+#form .form-four .form-four-one {
+  width: 20%;
+}
+#form .form-four .form-four-two {
+  width: 78%;
+}
+#form .form-five .input-address {
+  width: 100%;
+  padding: 40px 0 40px 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+.upload-file {
+  border: 1px solid rgb(184, 167, 167);
+  padding: 2px 100px 2px 100px;
+}
+.form-six .form-six-one {
+  text-align: center;
+}
+.form-six .form-six-one .upload-file {
+  background-color: #fff;
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+}
+.form-six .form-six-two {
+  margin-top: 15px;
+  width: 30%;
+}
+#form input[type="submit"] {
+  font-family: "iran";
+  font-size: 16px;
+  width: 80%;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+  padding: 20px 0 20px 0;
+  background-color: #3f93ec;
+  cursor: pointer;
+  transition:all .3s ease-in-out;
+  -webkit-transition:all .3s ease-in-out;
+  -moz-transition:all .3s ease-in-out;
+  -ms-transition:all .3s ease-in-out;
+  -o-transition:all .3s ease-in-out;
+}
+#form input[type="submit"]:hover {
+    background-color: #1b1bdae1;
+    color: #fff;
+}
+.form-six .form-six-one .uplaod-file {
+  width: 30%;
+}

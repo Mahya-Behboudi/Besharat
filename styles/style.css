@@ -1,0 +1,85 @@
+@font-face {
+  font-family: iran;
+  src: url(/fonts/iransansdn.ttf);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: "iran";
+}
+body {
+  /* position: relative; */
+  background: linear-gradient(
+    0deg,
+    rgba(1, 25, 135, 1) 0%,
+    rgba(1, 82, 109, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 30px 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.border-r {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+#besharat {
+  background-size: contain;
+  width: 100%;
+  height: auto;
+}
+#besharat .besharat {
+  display: flex;
+  width: 100%;
+
+  background-color: #e1e1e1;
+}
+#besharat .besharat-right {
+  /* background-color: red; */
+  width: 50%;
+  padding: 50px 20px;
+  border-left: 2px dashed #000;
+}
+#besharat .besharat-right h2 {
+  font-size: 45px;
+  color: #024673;
+}
+#besharat .besharat-right p {
+  font-size: 25px;
+  line-height: 60px;
+}
+#besharat .besharat-left {
+  /* background-color: blue; */
+  width: 50%;
+  padding: 50px 20px;
+}
+ul {
+  /* background-color: darkred; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  /* width: 33.33 */
+}
+ul li a img {
+  width: 200px;
+  height: 200px;
+}

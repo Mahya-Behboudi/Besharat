@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1200px) {
+    #besharat .besharat-right p  {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    ul li a img {
+        width: 130px;
+        height: 130px;
+    } 
+}
+@media only screen and (max-width: 800px) {
+    ul li a img {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #besharat .besharat {
+        display: flex;
+        flex-direction: column;
+    }
+    #besharat .besharat-right {
+        border: none;
+        width: 90%;
+    }
+    #besharat .besharat-left {
+        width: 90%;
+        padding: 20px 20px;
+    }
+}
+@media only screen and (max-width: 448px) {
+    #besharat .besharat-right h2 {
+        font-size: 30px;
+    }
+    
+}
+@media only screen and (max-width: 300px) {
+    ul {
+        justify-content: center;
+        align-items: center;
+    }
+    ul li {
+        width: 100%;
+        text-align: center;
+        /* background-color: red; */
+    }
+    ul li  a {
+        margin: auto;
+    }
+}
